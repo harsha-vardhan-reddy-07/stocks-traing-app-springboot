@@ -1,0 +1,148 @@
+.profilePage{
+
+    width: 100%;
+    padding-top: 12vh;
+}
+.profilePage h2{
+    margin: 4vh 5vw;
+    color: #323d6fec;
+}
+
+.profileBox{
+
+    width: 80%;
+    background-color: #F4F6FB;
+    margin-left: 10%;
+    padding: 3vh 3vw;
+    border-radius: 0.5rem;
+}
+
+.profileBox-body{
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2vh 1vw;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+}
+
+.profileBox-body span{
+
+    margin: 0;
+    text-align: center;
+}
+.profileBox-body span p{
+
+    margin: 0;
+    font-size: 0.8rem;
+    color: #1c1c1dad;
+}
+
+.profileBox-body span h6{
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 400;
+}
+.profileBox-body .cash-actions{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.profileBox-body .cash-actions .cash-actions-active{
+
+    background-color: #3F5BD9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border: 1px solid #3F5BD9;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions .cash-actions-inactive{
+
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #3F5BD9;
+    border: 1px solid #3F5BD9;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions button .cash-action-icons{
+    font-size: 1rem;
+}
+
+
+.ProfileFunds{
+    margin-left: 10%;
+    margin-top: 3vh;
+}
+
+.ProfileFunds h3{
+
+    font-size: 1.5rem;
+    color: #2f3c76;
+
+}
+
+.ProfileFunds form{
+    width: 30%;
+}
+
+
+.ProfileFunds input, .ProfileFunds select{
+    margin-left: 1.3rem;
+}
+
+.ProfileFunds button{
+    margin-left: 1.3rem;
+
+}
+
+.profileTransactions{
+    width: 60%;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.profileTransactions::-webkit-scrollbar {
+    display: none;
+  }
+
+.profileTransaction{
+    display: flex;
+    background-color: #f4f6fbc1;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px solid #2f3c762e;
+}
+
+.profileTransaction span{
+    text-align: center;
+    
+}
+
+.profileTransaction span h6{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #394b9d8c;
+}
+
+.profileTransaction span p{
+    margin: 0;
+    font-size: 1.1rem;
+    color: #394b9d;
+}

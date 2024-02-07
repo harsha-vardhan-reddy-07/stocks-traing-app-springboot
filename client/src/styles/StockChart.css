@@ -1,0 +1,81 @@
+.stockPage{
+    padding-top: 12vh;
+    display: flex;
+}
+
+.stockChart{
+    height: 80vh;
+    width: 67%;
+    margin-left: 3vw;
+}
+
+.stockChartActions{
+    width: 30%;
+}
+.stockChartActions-head{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 8vh;
+
+}
+.stockChartActions-head .button-active{
+    background-color: #394b9d;
+    border: 1px solid #394b9d;
+    color: #fff;
+    padding: 10px 0px;
+    width: 33%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.6rem;
+}
+.stockChartActions-head .button-inactive{
+    background-color: #fff;
+    border: 1px solid #394b9d;
+    padding: 10px 0px;
+    width: 33%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #394b9d;
+    border-radius: 0.6rem;
+}
+
+
+.stockChartActions-body{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5vh;
+    background-color: rgba(236, 240, 243, 0.322);
+    padding: 3vh 1.5vw;
+    border: 1px solid #394b9d28;
+    border-radius: 0.8rem;
+}
+
+.stockChartActions-body form{
+
+
+}
+
+.stockChartActions-body form label{
+
+    color: #222c56d2;
+}
+
+.stockChartActions-body form input{
+
+    color: #333a54b9;
+}
+
+.stockChartActions-body form select{
+
+    color: #333a54b9;
+    
+}
+
+.stockChartActions-body form p{
+
+    font-size: 0.7rem;
+    color: #5a6492a8;
+}

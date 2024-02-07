@@ -1,0 +1,10 @@
+.adminStockPage{
+    padding-top: 12vh;
+    display: flex;
+}
+
+.adminStockChart{
+    height: 80vh;
+    width: 90%;
+    margin-left: 3vw;
+}

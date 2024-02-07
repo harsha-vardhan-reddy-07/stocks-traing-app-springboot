@@ -1,0 +1,269 @@
+.landingPage{
+    height: 270vh;
+    width: 100%;
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f2fcffd9; */
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.landing-body{
+
+    margin-top: 13vh;
+    width: 100%;
+
+}
+
+.landing-hero{
+
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.landing-hero-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 2% 0% 2% 5% ;
+
+}
+.landing-hero-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgb(5, 54, 95);
+}
+.landing-hero-content p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    color: #6d6969;
+
+}
+
+/* landing - authentication */
+
+.authForm{
+    margin-top: 5%;
+    /* border: 1px solid #cb7c7c; */
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    font-family: 'Work Sans', sans-serif;
+
+    background-color: rgba(255, 255, 255, 0.518);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0.5rem;
+
+}
+.authForm h2{
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(45, 75, 97);
+    font-size: 1.8rem;
+}
+.authFormInputs {
+    width: 100%;
+    height: 50px;
+}
+
+.authFormInputs label{
+    color: rgba(42, 69, 89, 0.733);
+    /* padding: 0; */
+}
+.authFormInputs input{
+    color: rgba(42, 69, 89, 0.906);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #585b5c75;
+    /* padding: 0; */
+}
+.authFormInputs input:focus{
+    color: rgba(42, 69, 89, 0.906);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #585b5c75;
+    /* padding: 0; */
+}
+.authForm select {
+    color: rgba(42, 69, 89, 0.733);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #585b5c75;
+    font-size: medium;
+    padding: 15px 10px;
+}
+.authForm select option{
+    color: rgba(42, 69, 89, 0.906);
+    border: none;
+    outline: none;
+    background-color: rgb(222, 228, 228);
+
+}
+.authFormInputs input #floatingInput .form-control{
+    padding: 0 !important;
+}
+
+.authForm button{
+    background-color: rgb(0, 108, 197);
+    font-weight: bold;
+    color: rgb(246, 251, 255);
+    height: 50px;
+}
+.authForm p{
+    margin-top: 5%;
+    color: rgb(120, 123, 125);
+}
+.authForm p span{
+    margin-top: 5%;
+    color: rgb(20, 83, 119);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.landing-hero-image{
+    width: 50%;
+}
+
+.landing-hero-image img{
+    position: relative;
+    top: 0vh;
+    left: -10%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.landing-about{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-about .about-1{
+    display: flex;
+    width: 100%;
+}
+
+
+.landing-about .about-1 img{
+    
+    width: 30%;
+    margin-left :10%;
+    /* height: 80vh; */
+}
+.landing-about .about-1 .about-1-content{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-about .about-1 .about-1-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.landing-about .about-1 .about-1-content p{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.landing-about .about-1 .about-1-content a{
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+    padding: 10px 30px;
+    border: none;
+    background: linear-gradient(145deg, rgba(0,104,205,1) 0%, rgb(42, 134, 240) 55%, rgb(249, 122, 239) 100%);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.landing-about .about-2{
+    display: flex;
+    width: 100%;
+}
+
+.landing-about .about-2 img{
+    width: 40%;
+    margin-right :10%;
+}
+
+.landing-about .about-2 .about-2-content{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.landing-about .about-2 .about-2-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.landing-about .about-2 .about-2-content p{
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+}
+
+.landing-about .about-2 .about-2-content a{
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+    padding: 10px 30px;
+    border: none;
+    background: linear-gradient(145deg, rgba(0,104,205,1) 0%, rgb(42, 134, 240) 55%, rgb(249, 122, 239) 100%);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: rgb(0, 69, 122);
+}

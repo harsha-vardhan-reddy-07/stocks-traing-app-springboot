@@ -1,0 +1,98 @@
+.portfolioPage{
+    padding-top: 13vh;
+    width: 100%;
+}
+
+.user-portfolio-container{
+    width: 90%;
+    height: 85vh;
+    margin-left: 5%;
+    border-radius: 0.6rem;
+}
+.user-portfolio-container-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw 2vh 1vw;
+    margin: 0 1vw;
+    border-bottom: 2px solid #8b8f9361;
+}
+
+.user-portfolio-container-head h2{
+    font-size: 2.5rem;
+    color: rgba(29, 65, 123, 0.925);
+}
+
+
+.user-portfolio-container-search input{
+    width: 20vw;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid #22476979;
+    color: rgb(53, 81, 97);
+}
+
+.user-portfolio-container-search #searchIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    left: -2rem;
+    color: rgba(29, 73, 117, 0.854);
+}
+
+.user-portfolio{
+
+    height: 70vh;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.user-portfolio::-webkit-scrollbar {
+    display: none;
+  }
+
+.user-portfolio-stock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 1px solid #22476979;
+    margin: 0 2rem;
+    border-radius: 0.8rem;
+}
+
+.user-portfolio-stock:hover{
+    background-color: rgba(213, 232, 251, 0.162);
+    border: 1px solid #2247692c;
+}
+
+.user-portfolio-stock span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(35, 80, 120, 0.879);
+}
+
+.user-portfolio-stock span h5{
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgba(35, 80, 120, 0.729);
+}
+
+.user-portfolio-stock h6{
+    margin: 0;
+    padding: 5px 8px;
+    background-color: rgba(161, 205, 234, 0.199);
+    color: rgb(29, 96, 138);
+}
+
+.user-portfolio-stock span p{
+    margin: 0;
+    font-size: 0.9rem;
+}
